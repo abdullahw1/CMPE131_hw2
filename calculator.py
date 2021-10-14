@@ -39,8 +39,8 @@ def parse_input():
     This function splits user input into number1, number2, and operator.
     passes variables to calculator() function.
     """
-    text = input("Enter equation: ")
-    number1, number2, operator = text.split()
-    number1 = float(number1)
-    number2 = float(number2)
-    return calculator(number1, number2, operator)
+    text = input('Enter equation: ')
+    number1, operator, number2 = text.split()
+    result = calculator(float(number1), float(number2), operator)
+    print(result)
+
