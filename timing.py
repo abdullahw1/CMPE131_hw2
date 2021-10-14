@@ -7,5 +7,4 @@ def calculate_time():
     # store end time
     end = time.time()
     print("total", end - start)
-calculate_time()
-
+    return timer
