@@ -7,6 +7,6 @@ def calculate_time(method):
         time.sleep(2)
         # store end time
         end = time.time()
-        print("total", end - start)
+        print(f"total", (time.time() - start)
        
     return timer
