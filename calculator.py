@@ -37,4 +37,4 @@ def parse_input():
     # pass user input to calculator() function
     print(calculator(number1, number2, operator))
 
-#parse_input()
+parse_input()
