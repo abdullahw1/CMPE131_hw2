@@ -1,6 +1,14 @@
 import time
 """
     function to calculate time to run a function
+    
+    parameters
+    ----------
+    function : function
+    
+    Returns
+    --------
+    test : float
 """
 
 def calculate_time(function):
