@@ -23,7 +23,7 @@ def calculator(number1, number2, operator):
         print(number1 ** number2)
 
 
-def parse_input():
+#def parse_input():
     """
     get the text of user input and parse the text.
     This function splits user input into number1, number2, and operator.
