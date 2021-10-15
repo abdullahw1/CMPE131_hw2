@@ -35,6 +35,6 @@ def parse_input():
     number1 = float(number1)
     number2 = float(number2)
     # pass user input to calculator() function
-    print(calculator(number1, number2, operator))
+    return(calculator(number1, number2, operator))
 
 parse_input()
