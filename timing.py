@@ -1,12 +1,18 @@
 import time
+"""
+    function to calculate time to run a function
+"""
 
-def calculate_time(method):
+def calculate_time(function):
     def timer():
-        #store start time
-        start = time.time()
-        time.sleep(2)
-        # store end time
+        startTime = time.time()
+        function()
         end = time.time()
-        print(f"total", (time.time() - start)
-       
+        print(f"Total time", (end - startTime))
     return timer
+
+def test():
+    time.sleep(2)
+
+test = calculate_time(test)
+test()
