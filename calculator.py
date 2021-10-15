@@ -23,17 +23,18 @@ def calculator(number1, number2, operator):
         print(number1 ** number2)
 
 
-#def parse_input():
+def parse_input():
     """
-    get the text of user input and parse the text.
+    gets user input and splits.
     This function splits user input into number1, number2, and operator.
     passes variables to calculator() function.
     """
-    number1 = float(input("Enter number 1: "))
-    operator = input("Enter operator: ")
-    number2 = float(input("Enter number 2: "))
+    EquatOutout = input("Enter Equation: ")
+    equat = EquatOutout.split()
+    number1, operator, number2 = equat
+    number1 = float(number1)
+    number2 = float(number2)
     # pass user input to calculator() function
-    calculator(number1, number2, operator)
+    print(calculator(number1, number2, operator))
 
-
-parse_input()
+#parse_input()
