@@ -1,6 +1,16 @@
 def calculator(number1, number2, operator):
     """
-        This function will allow to make calculations
+        This function will allow to make simple calculations with 2 numbers
+        
+        parameters
+        ----------
+        number1 : float
+        number2 : float
+        operator : string
+        
+        Returns 
+        -------
+        float
     """
     # "+" operator will perform addition
     if operator == "+":
@@ -37,4 +47,4 @@ def parse_input():
     # pass user input to calculator() function
     return(calculator(number1, number2, operator))
 
-parse_input()
+#parse_input()
