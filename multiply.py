@@ -1,9 +1,21 @@
 def multiply_list(list):
-    product = 1
-    for x in list:
-        if type(x)==int:
-            product = product * x
+    """
+        function that will multiply elements in a list
+        
+        Parameter
+        ---------
+        list : list
+        
+        Returns
+        -------
+        product : int 
+        
+     """
+    result = 1
+    for i in list:
+        if type(i)==int:
+            result = result * i
         else:
             return False
 
-    return product
+    return result
